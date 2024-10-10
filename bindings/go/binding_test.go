@@ -3,8 +3,8 @@ package tree_sitter_typst_test
 import (
 	"testing"
 
-	tree_sitter "github.com/smacker/go-tree-sitter"
-	"github.com/tree-sitter/tree-sitter-typst"
+	tree_sitter "github.com/tree-sitter/go-tree-sitter"
+	tree_sitter_typst "github.com/tree-sitter/tree-sitter-typst/bindings/go"
 )
 
 func TestCanLoadGrammar(t *testing.T) {
